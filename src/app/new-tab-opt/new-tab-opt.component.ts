@@ -17,9 +17,7 @@ export class NewTabOptComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit() {
-  
-    console.log(this.a.nativeElement)
-    
+     
     this.a.nativeElement.addEventListener ('mousedown',(event:MouseEvent)=> {
 
       switch (event.which) {
